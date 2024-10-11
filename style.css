@@ -1,0 +1,156 @@
+/*Estilo header, fonte e cor das escritas */
+header {
+    background-color: rgb(186, 232, 250);
+    border-bottom: 1px solid rgb(165, 221, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;  
+}
+.menu {
+    background-color: rgb(182, 231, 250);
+    border-bottom: 1px solid rgb(165, 221, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+}
+.nav-container {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-grow: 1; 
+    display: flex; 
+    justify-content: center; 
+}
+.nav-link {
+    color: rgb(240, 138, 172);
+}
+.nav-link:hover {
+   border-radius: 5px;
+    background-color: rgb(246, 207, 220);;
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+.crochet-cor {
+    margin-top: 10px;
+    color: burlywood;
+    text-align: center; 
+   font-family: serif;
+}
+.logo {
+   
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: 40px;
+ }
+
+/*Relacionado ao conteúdo da página*/
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+footer {
+    background-color: rgb(182, 231, 250);
+    border-top:  rgb(151, 210, 233);
+    margin-top: 30px;
+}
+.banner {
+    position: relative;
+    height: 490px;
+}
+.banner::after {
+    content: ""; 
+    position: absolute;  
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* sombra preta semi-transparente */
+    z-index: 1; /* coloca a sombra na frente da imagem */
+}
+.banner-text {
+    font-family: serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-weight: bold;
+    z-index: 2; /* coloca o texto acima da sombra */
+}
+.banner-image {
+    width: 100%;
+    height: 100%; /* Garante que a imagem ocupe toda a altura do banner */
+    object-position: unset; /* Posiciona a parte superior da imagem na parte superior do contêiner */
+}
+ 
+svg {
+    color: rgb(240, 138, 172);
+    height: 30px;
+    margin-left: 5px;
+}
+
+.card-img-top {
+    object-fit: cover; 
+    height: 300px; 
+}
+.cartao{
+    margin-top: 250px;
+    background-color: rgb(182, 231, 250);
+}
+.preço{
+    color: burlywood;
+}
+.sobre {
+    margin-top: 15px;
+}
+
+
+.ilustrativa {
+    float: left; /* Faz a imagem flutuar à esquerda */
+    margin-left: 140px; /* Adiciona um espaço entre o texto e a imagem */
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+.sobre{
+font-family: serif;
+}
+.sobre-text{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+/*Cadastro*/
+.cadastro {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.campos{
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
